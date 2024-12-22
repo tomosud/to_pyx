@@ -1,0 +1,222 @@
+{
+    "164bd4ce-94e0-80b2-a1cd-e7d36d2f65ea": {
+        "SelectText01": "おわろう",
+        "Place": "自分のアパートの外",
+        "Command": null,
+        "GoTo01": "164bd4ce-94e0-8049-8a27-eb4ca60e5833",
+        "GoTo02": null,
+        "SelectText02": null,
+        "mainText01": "ドアを開けた。\n三階建てのアパートだった。\nそとは朝で、都会の街並みがみえている。",
+        "Scene": "Day1　1-1出家",
+        "MEMO": "自分の家をでる1"
+    },
+    "164bd4ce-94e0-8003-b4c6-f2fe1f2f797a": {
+        "SelectText01": "部屋のメモAセカオワ",
+        "Place": "自分の部屋",
+        "Command": null,
+        "GoTo01": "164bd4ce-94e0-80b2-a1cd-e7d36d2f65ea",
+        "GoTo02": null,
+        "SelectText02": null,
+        "mainText01": "「でかけるよ。よるには戻るかも」と書いた。\nだれに書いたのかわからないけど、大切なことに思えたから\nさあ、出かけよう・・",
+        "Scene": "Day1　1-1出家",
+        "MEMO": "部屋のメモB戻るよ"
+    },
+    "164bd4ce-94e0-8050-a822-c6ce193cbbeb": {
+        "SelectText01": "ドアをあけてそとへ",
+        "Place": "自分の部屋",
+        "Command": null,
+        "GoTo01": "164bd4ce-94e0-80b2-a1cd-e7d36d2f65ea",
+        "GoTo02": null,
+        "SelectText02": null,
+        "mainText01": "「あした世界は終わる」と書いた。\nどういう意味だろう？\nさあ、出かけよう・・",
+        "Scene": "Day1　1-1出家",
+        "MEMO": "部屋のメモAセカオワ"
+    },
+    "164bd4ce-94e0-8069-9c51-c1bfdefd5091": {
+        "SelectText01": "「あした世界はおわる」と書く",
+        "Place": "自分の部屋",
+        "Command": null,
+        "GoTo01": "164bd4ce-94e0-8050-a822-c6ce193cbbeb",
+        "GoTo02": "164bd4ce-94e0-8003-b4c6-f2fe1f2f797a",
+        "SelectText02": "「でかけるよ。よるには戻るかも」",
+        "mainText01": "メモを・・・でもだれのために？\nきおくがないのでわからない。\nなんて書こう？",
+        "Scene": "Day1　1-1出家",
+        "MEMO": "メモの内容を判断"
+    },
+    "164bd4ce-94e0-8049-8a27-eb4ca60e5833": {
+        "SelectText01": null,
+        "Place": "自分の部屋",
+        "Command": "end",
+        "GoTo01": null,
+        "GoTo02": null,
+        "SelectText02": null,
+        "mainText01": "終わった",
+        "Scene": "Day1　1-1出家",
+        "MEMO": "end"
+    },
+    "164bd4ce-94e0-806b-a34e-efc6a9dea42b": {
+        "SelectText01": "おわろう",
+        "Place": "自分の部屋",
+        "Command": null,
+        "GoTo01": "164bd4ce-94e0-8049-8a27-eb4ca60e5833",
+        "GoTo02": null,
+        "SelectText02": null,
+        "mainText01": "出かける前にメモをのこそう",
+        "Scene": "Day1　1-1出家",
+        "MEMO": "メモを残してでかける"
+    },
+    "164bd4ce-94e0-803e-a507-d1045573a803": {
+        "SelectText01": "テレビをみる",
+        "Place": "自分の部屋",
+        "Command": null,
+        "GoTo01": "164bd4ce-94e0-80dd-a846-cc772c45a4ae",
+        "GoTo02": "164bd4ce-94e0-806b-a34e-efc6a9dea42b",
+        "SelectText02": "そろそろ出かけよう",
+        "mainText01": "2020年2月4日の新聞が届いている。\nあたらしいインクのにおいがする。",
+        "Scene": "Day1　1-1出家",
+        "MEMO": "新聞を読む"
+    },
+    "164bd4ce-94e0-80dd-a846-cc772c45a4ae": {
+        "SelectText01": "新聞をよむ",
+        "Place": "自分の部屋",
+        "Command": null,
+        "GoTo01": "164bd4ce-94e0-803e-a507-d1045573a803",
+        "GoTo02": "164bd4ce-94e0-806b-a34e-efc6a9dea42b",
+        "SelectText02": "そろそろ出かけよう",
+        "mainText01": "ニュースだ。\nロシアではプーチン氏が大統領に・・\nアメリカではブッシュが・・",
+        "Scene": "Day1　1-1出家",
+        "MEMO": "テレビをみる"
+    },
+    "164bd4ce-94e0-8091-bdd8-ec08d9d1742b": {
+        "SelectText01": "ゲットだぜ",
+        "Place": "自分ちのトイレ",
+        "Command": null,
+        "GoTo01": "164bd4ce-94e0-8005-b727-e93a1c31aa41",
+        "GoTo02": null,
+        "SelectText02": null,
+        "mainText01": "うんこから鍵（かぎ）がでてきた",
+        "Scene": "Day1　1-1出家",
+        "MEMO": "クソから鍵を発見"
+    },
+    "164bd4ce-94e0-8062-924f-dd609991f57e": {
+        "SelectText01": "そうか",
+        "Place": "自分の部屋",
+        "Command": null,
+        "GoTo01": "164bd4ce-94e0-8089-bf86-fb9321bef79c",
+        "GoTo02": null,
+        "SelectText02": null,
+        "mainText01": "鍵（かぎ）がかかってるね",
+        "Scene": "Day1　1-1出家",
+        "MEMO": "ドアには鍵"
+    },
+    "164bd4ce-94e0-8005-b727-e93a1c31aa41": {
+        "SelectText01": "テレビをみる",
+        "Place": "自分の部屋",
+        "Command": null,
+        "GoTo01": "164bd4ce-94e0-80dd-a846-cc772c45a4ae",
+        "GoTo02": "164bd4ce-94e0-803e-a507-d1045573a803",
+        "SelectText02": "新聞をよむ",
+        "mainText01": "部屋にもどったよ。そういえば・・・\nきのうの事が思い出せない。\nどうする？",
+        "Scene": "Day1　1-1出家",
+        "MEMO": "かぎありで部屋に戻った"
+    },
+    "164bd4ce-94e0-805c-9adc-f68725a48168": {
+        "SelectText01": "またトイレにいく",
+        "Place": "自分の部屋",
+        "Command": null,
+        "GoTo01": "164bd4ce-94e0-80cb-8475-ee577076c402",
+        "GoTo02": "164bd4ce-94e0-8062-924f-dd609991f57e",
+        "SelectText02": "そとへでたいなあ",
+        "mainText01": "部屋に戻った",
+        "Scene": "Day1　1-1出家",
+        "MEMO": "かぎなしで部屋に戻った"
+    },
+    "164bd4ce-94e0-802f-9d8c-e3a92fcaf148": {
+        "SelectText01": "このおとはなんだろう",
+        "Place": "自分ちのトイレ",
+        "Command": null,
+        "GoTo01": "164bd4ce-94e0-8091-bdd8-ec08d9d1742b",
+        "GoTo02": null,
+        "SelectText02": null,
+        "mainText01": "ぷりぷりぷう　チャリーン！",
+        "Scene": "Day1　1-1出家",
+        "MEMO": "クソする２"
+    },
+    "164bd4ce-94e0-8037-b22f-e40a2f0b1e3e": {
+        "SelectText01": "鏡をみる",
+        "Place": "自分ちのトイレ",
+        "Command": null,
+        "GoTo01": "164bd4ce-94e0-8098-80f8-d6110cd4b1f2",
+        "GoTo02": "164bd4ce-94e0-8037-b22f-e40a2f0b1e3e",
+        "SelectText02": "もっとうんち",
+        "mainText01": "ぷりぷりぷう",
+        "Scene": "Day1　1-1出家",
+        "MEMO": "クソする１"
+    },
+    "164bd4ce-94e0-800b-95f0-ed38f67f7971": {
+        "SelectText01": "怖いのでへやに戻る",
+        "Place": "自分ちのトイレ",
+        "Command": null,
+        "GoTo01": "164bd4ce-94e0-805c-9adc-f68725a48168",
+        "GoTo02": "164bd4ce-94e0-802f-9d8c-e3a92fcaf148",
+        "SelectText02": "こんどこそうんこしよう",
+        "mainText01": "おい、\n明日せかいはおわるって！と鏡のなかの男は言った。\nすると、なにかが変わった！\n",
+        "Scene": "Day1　1-1出家",
+        "MEMO": "鏡を見る3"
+    },
+    "164bd4ce-94e0-80d6-a4f5-f73df0958064": {
+        "SelectText01": "もっともっと鏡を見る",
+        "Place": "自分ちのトイレ",
+        "Command": null,
+        "GoTo01": "164bd4ce-94e0-800b-95f0-ed38f67f7971",
+        "GoTo02": "164bd4ce-94e0-8037-b22f-e40a2f0b1e3e",
+        "SelectText02": "うんこしよう",
+        "mainText01": "男はネクタイをして、\nサラリーマン風だ。\nこれが自分だ。",
+        "Scene": "Day1　1-1出家",
+        "MEMO": "鏡を見る2"
+    },
+    "164bd4ce-94e0-8098-80f8-d6110cd4b1f2": {
+        "SelectText01": "もっと鏡を見る",
+        "Place": "自分ちのトイレ",
+        "Command": null,
+        "GoTo01": "164bd4ce-94e0-80d6-a4f5-f73df0958064",
+        "GoTo02": "164bd4ce-94e0-8037-b22f-e40a2f0b1e3e",
+        "SelectText02": "うんこしよう",
+        "mainText01": "若い男がうつっている",
+        "Scene": "Day1　1-1出家",
+        "MEMO": "鏡を見る1"
+    },
+    "164bd4ce-94e0-8089-bf86-fb9321bef79c": {
+        "SelectText01": "トイレへ行く",
+        "Place": "自分の部屋",
+        "Command": null,
+        "GoTo01": "164bd4ce-94e0-80cb-8475-ee577076c402",
+        "GoTo02": "164bd4ce-94e0-8062-924f-dd609991f57e",
+        "SelectText02": "よくみる",
+        "mainText01": "ドアは開かなかった",
+        "Scene": "Day1　1-1出家",
+        "MEMO": "ドア開かない"
+    },
+    "164bd4ce-94e0-80cb-8475-ee577076c402": {
+        "SelectText01": "鏡を見る",
+        "Place": "自分ちのトイレ",
+        "Command": null,
+        "GoTo01": "164bd4ce-94e0-8098-80f8-d6110cd4b1f2",
+        "GoTo02": "164bd4ce-94e0-8037-b22f-e40a2f0b1e3e",
+        "SelectText02": "うんこしよう",
+        "mainText01": "トイレに入った",
+        "Scene": "Day1　1-1出家",
+        "MEMO": "トイレで発見1"
+    },
+    "164bd4ce-94e0-80a1-b371-dbef2b2b70e1": {
+        "SelectText01": "トイレへ行く",
+        "Place": "自分の部屋",
+        "Command": "start",
+        "GoTo01": "164bd4ce-94e0-80cb-8475-ee577076c402",
+        "GoTo02": "164bd4ce-94e0-8089-bf86-fb9321bef79c",
+        "SelectText02": "外へ行く",
+        "mainText01": "起きた。\n明日世界は終わるって。どうする？",
+        "Scene": "Day1　1-1出家",
+        "MEMO": "自分の家で開始"
+    }
+}
