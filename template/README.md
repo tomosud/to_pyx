@@ -49,11 +49,11 @@ pyxelをつかったwebでも遊べるゲーム
 
 ### 📖 開発者向け - 読む順序
 1. **[DEVELOPMENT_ENTRY.md](./DEVELOPMENT_ENTRY.md)** - 開発の入り口・現在状況
-2. **[DEVELOPMENT_GUIDE.md](./DEVELOPMENT_GUIDE.md)** - 開発方針・ルール・環境構築
+2. **[DEVELOPMENT_GUIDE.md](./DEVELOPMENT_GUIDE.md)** - 開発方針・ルール・環境構築　（一つ上の階層　わかるように書き換えて）
 3. **[CURRENT_SPECIFICATIONS.md](./CURRENT_SPECIFICATIONS.md)** - 現在の実装仕様詳細
 
 ### 📖 参考資料
 - **[DEVELOPMENT_HISTORY.md](./DEVELOPMENT_HISTORY.md)** - 完了フェーズの開発履歴
-- **[CROSS_PLATFORM_PYTHON_SETUP.md](./CROSS_PLATFORM_PYTHON_SETUP.md)** - 環境構築詳細
+- **[CROSS_PLATFORM_PYTHON_SETUP.md](./CROSS_PLATFORM_PYTHON_SETUP.md)** - 環境構築詳細　（一つ上の階層　わかるように書き換えて）
 
 
