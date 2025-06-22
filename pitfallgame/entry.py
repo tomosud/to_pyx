@@ -23,6 +23,7 @@ class Game:
         self.game_clear = False
         self.score = 0
         self.lives = 3
+        self.invincible_time = 0  # 無敵時間（フレーム数）
         
         # マップ要素
         self.ground_y = 140
@@ -102,11 +103,16 @@ class Game:
             if enemy["x"] <= 20 or enemy["x"] >= 220:
                 enemy["vx"] *= -1
         
-        # 敵との衝突判定
-        for enemy in self.enemies:
-            if (abs(self.player_x - enemy["x"]) < 15 and 
-                abs(self.player_y - enemy["y"]) < 15):
-                self.player_died()
+        # 無敵時間の更新
+        if self.invincible_time > 0:
+            self.invincible_time -= 1
+        
+        # 敵との衝突判定（無敵時間中は衝突しない）
+        if self.invincible_time == 0:
+            for enemy in self.enemies:
+                if (abs(self.player_x - enemy["x"]) < 15 and 
+                    abs(self.player_y - enemy["y"]) < 15):
+                    self.player_hit()
         
         # お宝の収集
         for treasure in self.treasures:
@@ -126,7 +132,16 @@ class Game:
         if pyxel.btnp(pyxel.KEY_Q):
             pyxel.quit()
     
+    def player_hit(self):
+        """敵にぶつかった時の処理"""
+        self.lives -= 1
+        self.invincible_time = 120  # 2秒間の無敵時間（60FPSで120フレーム）
+        
+        if self.lives <= 0:
+            self.game_over = True
+    
     def player_died(self):
+        """穴に落ちた時の処理"""
         self.lives -= 1
         if self.lives <= 0:
             self.game_over = True
@@ -136,6 +151,7 @@ class Game:
             self.player_y = 120
             self.player_vy = 0
             self.player_on_ground = True
+            self.invincible_time = 120  # 穴に落ちた後も無敵時間
     
     def restart_game(self):
         self.player_x = 50
@@ -146,6 +162,7 @@ class Game:
         self.game_clear = False
         self.score = 0
         self.lives = 3
+        self.invincible_time = 0
         
         # お宝をリセット
         for treasure in self.treasures:
@@ -174,12 +191,14 @@ class Game:
             if not treasure["collected"]:
                 pyxel.circ(treasure["x"], treasure["y"], 4, 10)
         
-        # プレイヤーを描画（青い四角）
-        pyxel.rect(self.player_x - 5, self.player_y - 5, 10, 10, 12)
+        # プレイヤーを描画（無敵時間中は点滅）
+        if self.invincible_time == 0 or (self.invincible_time % 10) < 5:
+            pyxel.rect(self.player_x - 5, self.player_y - 5, 10, 10, 12)
         
         # UI描画
         pyxel.text(5, 5, f"Score: {self.score}", 7)
-        pyxel.text(5, 15, f"Lives: {self.lives}", 7)
+        # ライフ表示を右上に移動
+        pyxel.text(self.SCREEN_WIDTH - 60, 5, f"Lives: {self.lives}", 7)
         
         # ゲーム状態メッセージ
         if self.game_over:
