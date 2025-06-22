@@ -1,10 +1,10 @@
-# [ゲーム名を記入]
+# Pitfall Adventure
 
 **更新条件**: ゲームの概要・基本操作方法・ゲームフローの変更時
 
 ## 概要
 
-[ゲームの説明を1-2行で記入]
+プレイヤーがジャングルを探検し、穴や敵を避けながらお宝を集めるサイドスクロールアクションゲームです。
 
 **📋 開発状況**: [DEVELOPMENT_ENTRY.md](./DEVELOPMENT_ENTRY.md) | **🛠️ 開発ガイド**: [../DEVELOPMENT_GUIDE.md](../DEVELOPMENT_GUIDE.md)
 
@@ -12,27 +12,27 @@
 
 ### 開発環境での実行
 ```bash
-python [メインファイル名].py
+python entry.py
 ```
 
-### Web版（GitHub Pages）
-[デプロイ後にURLを記入]
+### Web版（Windows環境）
+```cmd
+run.bat
+```
+ブラウザで http://localhost:8000 が開きます。
 
 ## 操作方法
 
-[キー操作やマウス操作を記入]
-例：
-- 矢印キー: 移動
-- スペース: アクション
+- 左右矢印キー: プレイヤー移動
+- スペースキー: ジャンプ
 - R: リスタート
+- Q: ゲーム終了
 
 ## ゲームの流れ
 
-[基本的なゲームフローを記入]
-例：
-1. **開始**: タイトル画面からスタート
-2. **プレイ**: [ゲームの目標を記入]
-3. **終了**: [終了条件を記入]
+1. **開始**: ゲーム画面でスタート
+2. **プレイ**: ジャングルの中を移動し、穴や敵を避けながらお宝を集める
+3. **終了**: すべてのお宝を集めるか、プレイヤーが落下・敵に接触でゲームオーバー
 
 **詳細仕様**: [CURRENT_SPECIFICATIONS.md](./CURRENT_SPECIFICATIONS.md)
 
@@ -49,6 +49,6 @@ python [メインファイル名].py
 ### 📖 参考資料
 - **[DEVELOPMENT_HISTORY.md](./DEVELOPMENT_HISTORY.md)** - 完了フェーズの開発履歴
 - **[../CROSS_PLATFORM_PYTHON_SETUP.md](../CROSS_PLATFORM_PYTHON_SETUP.md)** - 環境構築詳細
-- **[../pitfallgame/](../pitfallgame/)** - 参考実装例（Pyxelゲーム・ドキュメント運用・開発進行の実例）
+- **[../tetgame/](../tetgame/)** - 参考実装例（ドキュメント運用・開発進行の実例）
 
 

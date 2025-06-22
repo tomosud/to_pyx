@@ -126,9 +126,18 @@ celerybeat.pid
 .venv
 env/
 venv/
+venv_win/
 ENV/
 env.bak/
 venv.bak/
+pyvenv.cfg
+
+# Python version management
+.python-version
+
+# Conda environments
+conda-meta/
+.conda/
 
 # Spyder project settings
 .spyderproject

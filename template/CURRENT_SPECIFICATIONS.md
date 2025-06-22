@@ -53,6 +53,7 @@
 - この仕様は現在の実装（[現在のフェーズ]完了時点）に基づいています
 - 過去の仕様や開発経緯は `DEVELOPMENT_HISTORY.md` を参照してください
 
-**参考例**: [../tetgame/CURRENT_SPECIFICATIONS.md](../tetgame/CURRENT_SPECIFICATIONS.md)
+**参考例**: [../pitfallgame/CURRENT_SPECIFICATIONS.md](../pitfallgame/CURRENT_SPECIFICATIONS.md)
+- Pyxelゲームの実装例（Pitfallスタイルアクション）
 - 実装中機能の仕様記録例
 - 段階的開発での仕様管理方法

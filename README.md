@@ -28,7 +28,28 @@ cp -r template puzzle_game
 cd puzzle_game
 ```
 
-### 2. ドキュメントを確認・更新
+**templateに含まれる実行セット**：
+- **entry.py** - メインゲームファイル（テンプレートコード）
+- **index.html** - Web版実行用HTML
+- **run.bat** - Windows環境一括セットアップ・実行スクリプト
+
+### 2. ゲームの実装開始
+**entry.py** ファイルを編集してゲームを実装：
+- テンプレートコードを参考にゲームロジックを追加
+- pyxelのAPIを使用してグラフィック、サウンド、入力処理を実装
+- 完成例は [pitfallgame/entry.py](./pitfallgame/entry.py) を参照
+
+### 3. ゲームの実行テスト
+**WSL/Linux環境**：
+```bash
+source venv/bin/activate
+python entry.py
+```
+
+**Windows環境**：
+- `run.bat` をダブルクリックでWeb版を起動
+
+### 4. ドキュメントを確認・更新
 開発開始時に以下の順序で読み、適宜更新してください：
 
 1. **[DEVELOPMENT_ENTRY.md](./template/DEVELOPMENT_ENTRY.md)** - 開発状況とフェーズ管理
@@ -36,11 +57,14 @@ cd puzzle_game
 3. **[CURRENT_SPECIFICATIONS.md](./template/CURRENT_SPECIFICATIONS.md)** - 詳細仕様
 4. **[DEVELOPMENT_HISTORY.md](./template/DEVELOPMENT_HISTORY.md)** - 開発履歴（参考用）
 
-### 3. 参考実装を確認
-**[tetgame/](./tetgame/)** フォルダを参照して以下を確認：
+### 5. 参考実装を確認
+**[pitfallgame/](./pitfallgame/)** フォルダを参照して以下を確認：
+- Pyxelゲームの実装例（Pitfallスタイルアクション）
 - ドキュメント運用の実例
 - 開発進行中の状況記録方法
 - フェーズ管理の具体例
+
+**tetgameフォルダは削除予定です。今後は[pitfallgame/](./pitfallgame/)を唯一のサンプルとして参考してください。**
 
 **重要**: templateフォルダ自体は改変しないこと。
 

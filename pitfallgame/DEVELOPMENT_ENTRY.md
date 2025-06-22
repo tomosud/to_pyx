@@ -47,8 +47,7 @@
 
 ## 参考資料
 
-**開発進行の参考例**: [../pitfallgame/DEVELOPMENT_ENTRY.md](../pitfallgame/DEVELOPMENT_ENTRY.md)
-- Pyxelゲーム開発の実装例（Pitfallスタイルアクション）
-- 実際の開発進行中の状態記録例
+**開発進行の参考例**: [../template/DEVELOPMENT_ENTRY.md](../template/DEVELOPMENT_ENTRY.md)
+- 開発プロセスのテンプレート
 - 詳細な作業状況の記録方法
 - フェーズ管理の具体例
