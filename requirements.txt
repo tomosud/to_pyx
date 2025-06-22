@@ -1,3 +1,2 @@
 pyxel
 pyxel-universal-font
-notion-client
