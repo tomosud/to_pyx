@@ -32,7 +32,7 @@ cd puzzle_game
 開発開始時に以下の順序で読み、適宜更新してください：
 
 1. **[DEVELOPMENT_ENTRY.md](./template/DEVELOPMENT_ENTRY.md)** - 開発状況とフェーズ管理
-2. **[README.md](./template/README.md)** - ゲーム概要（プレイヤー向け）
+2. **[ゲームフォルダのREADME.md](./template/README.md)** - 個別ゲームの概要（プレイヤー向け）
 3. **[CURRENT_SPECIFICATIONS.md](./template/CURRENT_SPECIFICATIONS.md)** - 詳細仕様
 4. **[DEVELOPMENT_HISTORY.md](./template/DEVELOPMENT_HISTORY.md)** - 開発履歴（参考用）
 

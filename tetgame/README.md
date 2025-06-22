@@ -40,7 +40,7 @@ python tet_gameB.py
 ## ドキュメント構成
 
 ### 📖 プレイヤー・初回利用者向け
-1. **README.md** (このファイル) - プロジェクト概要・クイックスタート
+1. **README.md** (このファイル) - このゲームの概要・操作方法・プレイ方法
 
 ### 📖 開発者向け - 読む順序
 1. **[DEVELOPMENT_ENTRY.md](./DEVELOPMENT_ENTRY.md)** - 開発の入り口・現在状況
