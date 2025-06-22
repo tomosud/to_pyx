@@ -4,9 +4,9 @@
 
 ## 開発再開時のチェックリスト
 
-1. **現在の状況確認**: [DEVELOPMENT_ENTRY.md](./DEVELOPMENT_ENTRY.md)
+1. **現在の状況確認**: ゲームフォルダの [DEVELOPMENT_ENTRY.md](./template/DEVELOPMENT_ENTRY.md)
 2. **環境セットアップ**: [CROSS_PLATFORM_PYTHON_SETUP.md](./CROSS_PLATFORM_PYTHON_SETUP.md)
-3. **詳細仕様確認**: [CURRENT_SPECIFICATIONS.md](./CURRENT_SPECIFICATIONS.md)
+3. **詳細仕様確認**: ゲームフォルダの [CURRENT_SPECIFICATIONS.md](./template/CURRENT_SPECIFICATIONS.md)
 
 ## 開発全体の進行イメージ
 
@@ -20,6 +20,20 @@
 ### コーディング規約
 - **ファイル分割**: 1ファイル約400行以内で機能分割
 - **ドキュメント更新**: 仕様や計画変更時はドキュメントを更新
+
+## ドキュメント更新タイミング
+
+### 即座に更新（実装確認直後）
+- **DEVELOPMENT_ENTRY.md**: フェーズ完了時、次ステップ決定時
+- **CURRENT_SPECIFICATIONS.md**: 機能追加・仕様変更直後
+
+### ゲーム完成に近づいたら更新
+- **README.md**: ゲーム概要・操作方法の変更時
+
+### 履歴として保存
+- **DEVELOPMENT_HISTORY.md**: 大きな設計変更・廃止した機能・失敗した試行
+
+> **重要**: AIが開発を再開する際、人間の説明なしに状況を把握できるよう、実装後すぐに関連ドキュメントを更新してください。
 
 ### パラメータ設定の一元化
 

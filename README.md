@@ -19,11 +19,30 @@ claude codeはもし、このリポジトリで環境設定ができていなか
 詳細なセットアップ手順: [CROSS_PLATFORM_PYTHON_SETUP.md](./CROSS_PLATFORM_PYTHON_SETUP.md)
 
 
-## 個別のゲームの開発開始時。
+## 新しいゲームの開発開始手順
 
-templateフォルダを複製し、適当な名前を付け、その中に作成してください。
-中には以下のドキュメントテンプレートが入っているので、役割別に読んだり、更新しながら開発を行ってください。
-templateフォルダは求められない限り、改変しないこと。
+### 1. templateフォルダを複製
+```bash
+# 例：パズルゲームを作る場合
+cp -r template puzzle_game
+cd puzzle_game
+```
+
+### 2. ドキュメントを確認・更新
+開発開始時に以下の順序で読み、適宜更新してください：
+
+1. **[DEVELOPMENT_ENTRY.md](./template/DEVELOPMENT_ENTRY.md)** - 開発状況とフェーズ管理
+2. **[README.md](./template/README.md)** - ゲーム概要（プレイヤー向け）
+3. **[CURRENT_SPECIFICATIONS.md](./template/CURRENT_SPECIFICATIONS.md)** - 詳細仕様
+4. **[DEVELOPMENT_HISTORY.md](./template/DEVELOPMENT_HISTORY.md)** - 開発履歴（参考用）
+
+### 3. 参考実装を確認
+**[tetgame/](./tetgame/)** フォルダを参照して以下を確認：
+- ドキュメント運用の実例
+- 開発進行中の状況記録方法
+- フェーズ管理の具体例
+
+**重要**: templateフォルダ自体は改変しないこと。
 
 
 ## 技術仕様
